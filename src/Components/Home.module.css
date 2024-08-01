@@ -4,10 +4,26 @@
   justify-content: center;
   align-items: center;
   height: 50vh;
+  
+ 
 
 
   h1{
     font-size: 70px;
+    color: white;
+    margin: 0;
+  }
+
+  p{
+    font-size: 20px;
+    color: white;
+  }
+
+
+  .aboutPhoto {
+    border: solid  white;
+    height: 85%;
+    border-radius: 100%;
   }
 }
 
