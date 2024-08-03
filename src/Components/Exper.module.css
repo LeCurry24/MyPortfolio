@@ -1,0 +1,25 @@
+.expCard {
+    border-radius: 20px;
+    background-color: rgba(58, 57, 57, 0.42);
+    
+    width: 60%;
+    
+    
+  
+    .expInfo {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 40vh;
+  
+      p {
+        color: white;
+      }
+    }
+  }
+
+  h2 {
+    color: white;
+    position: absolute;
+    bottom: 85%;
+  }

@@ -3,7 +3,8 @@ import ErrorPage from "./Pages/ErrorPage";
 import Home from "./Components/Home";
 import Layout from "./Pages/Layout";
 import AboutPage from "./Components/AboutPage"
-
+import Experience from "./Components/Experience";
+import Projects from "./Components/Projects"
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,14 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutPage/>
+      },
+      {
+        path: "/experience",
+        element: <Experience/>
+      },
+      {
+        path: "/projact",
+        element: <Projects/>
       }
     ],
   },

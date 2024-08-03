@@ -1,13 +1,9 @@
 .homePage {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 50vh;
   
- 
-
-
   h1{
     font-size: 70px;
     color: white;
@@ -25,6 +21,18 @@
     height: 85%;
     border-radius: 100%;
   }
+}
+
+.homeProjactBtn{
+    position: absolute;
+    left: 94%;
+    bottom: 50%;
+}
+
+.homeExperBtn{
+    position: absolute;
+    right:94%;
+    bottom: 50%;
 }
 
 /* learn more about me button */
@@ -125,3 +133,6 @@
 .button:where(:hover, :focus) {
   color: #fff;
 }
+
+
+/* styling for experience button and profile button */
