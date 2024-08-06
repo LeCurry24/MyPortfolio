@@ -14,16 +14,8 @@ const Home = () => {
       <Link to={"/about"}>
         <button className={styles.button}>Learn more about me</button>
       </Link>
-      <div>
-        <Link to={"/projact"}>
-          <button className={`${styles.homeProjactBtn} ${styles.experProjact}`}>Projects</button>
-        </Link>
-      </div>
-      <div>
-        <Link to={"/experience"}>
-          <button className={`${styles.homeExperBtn} ${styles.experProjact}`}>Experience</button>  
-        </Link>
-      </div>
+      
+      
     </div>
   );
 };

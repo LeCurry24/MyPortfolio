@@ -9,9 +9,11 @@ const Layout = () => {
     <>
       <div className={styles.socials}>
         <div className={styles.leftSideBar}>
-        <Link to={"/"}>
-          <button className={styles.button}><HomeBtn/></button>
-        </Link>
+          <Link to={"/"}>
+            <button className={styles.button}>
+              <HomeBtn />
+            </button>
+          </Link>
           <button className={styles.button}>
             <ExternalButton />
           </button>
@@ -20,7 +22,12 @@ const Layout = () => {
           </button>
         </div>
         <div>
-          <button className={styles.resumeBtn}>My Resume</button>
+          <a
+            href="https://docs.google.com/document/d/e/2PACX-1vSg3RnkYPChAjk6DfOl0G2xLW92WegD9aatdHEnTMig9FLCDb0Zo3ykLTzUlbQ4uWFWJkcwDs0TNuET/pub?embedded=true"
+            target="_blank"
+          >
+            <button className={styles.resumeBtn}>My Resume</button>
+          </a>
         </div>
       </div>
       <div className={styles.content}>

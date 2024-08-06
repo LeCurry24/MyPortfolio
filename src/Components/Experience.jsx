@@ -1,4 +1,6 @@
 import styles from "./Exper.module.css";
+import ContactMe from "./ContactMe";
+
 
 const Experience = () => {
   return (
@@ -8,7 +10,7 @@ const Experience = () => {
         <div className={styles.expInfo}>
           <h2>Experience</h2>
           <div>
-            <p>Carolina Code School</p>
+            <h3>Carolina Code School</h3>
             <p>Full Stack Web Development Student</p>
             <p>March 2024 - July 2024</p>
             <p>
@@ -22,6 +24,9 @@ const Experience = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div>
+        <ContactMe/>
       </div>
     </>
   );

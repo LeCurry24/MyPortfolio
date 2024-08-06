@@ -1,11 +1,15 @@
 /* From Uiverse.io by Yaya12085 */ 
 .card {
-    /* max-width: 300%; */
-    width: 160%;
+    max-width: 200%;
+    /* width: 160%; */
     border-radius: 0.5rem;
-    background-color: #a4e1ff;
+    background-color: #4d96bb;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     border: 1px solid transparent;
+  }
+
+  .h3{
+    color: black;
   }
   
   .card a {

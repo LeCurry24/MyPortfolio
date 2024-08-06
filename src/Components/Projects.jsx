@@ -1,4 +1,4 @@
-import ProjectsCard from "./ProjactsCard"
+import ProjectsCard from "../MyProjects/ChooChooChat"
 
 
 const Profect = () => {

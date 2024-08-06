@@ -23,17 +23,9 @@
   }
 }
 
-.homeProjactBtn{
-    position: absolute;
-    left: 94%;
-    bottom: 50%;
-}
 
-.homeExperBtn{
-    position: absolute;
-    right:94%;
-    bottom: 50%;
-}
+
+
 
 /* learn more about me button */
 .button {
@@ -136,3 +128,6 @@
 
 
 /* styling for experience button and profile button */
+/* From Uiverse.io by neerajbaniwal */ 
+
+  
