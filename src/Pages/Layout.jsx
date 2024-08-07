@@ -22,12 +22,7 @@ const Layout = () => {
           </button>
         </div>
         <div>
-          <a
-            href="https://docs.google.com/document/d/e/2PACX-1vSg3RnkYPChAjk6DfOl0G2xLW92WegD9aatdHEnTMig9FLCDb0Zo3ykLTzUlbQ4uWFWJkcwDs0TNuET/pub?embedded=true"
-            target="_blank"
-          >
-            <button className={styles.resumeBtn}>My Resume</button>
-          </a>
+            <Link to={"/resume"}><button className={styles.resumeBtn}>My Resume</button></Link>
         </div>
       </div>
       <div className={styles.content}>
