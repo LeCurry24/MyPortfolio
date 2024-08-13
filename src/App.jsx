@@ -4,7 +4,7 @@ import Home from "./Components/Home";
 import Layout from "./Pages/Layout";
 import AboutPage from "./Components/AboutPage"
 import Experience from "./Components/Experience";
-import Projects from "./Components/Projects"
+import Projects from "./MyProjects/Projects"
 import Resume from "./Pages/Resume";
 
 const router = createBrowserRouter([
