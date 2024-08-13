@@ -3,9 +3,10 @@ import ErrorPage from "./Pages/ErrorPage";
 import Home from "./Components/Home";
 import Layout from "./Pages/Layout";
 import AboutPage from "./Components/AboutPage"
-import Experience from "./Components/Experience";
 import Projects from "./MyProjects/Projects"
 import Resume from "./Pages/Resume";
+import MyStory from "./Components/MyStory";
+import ContactMe from "./Components/ContactMe";
 
 const router = createBrowserRouter([
   {
@@ -21,8 +22,8 @@ const router = createBrowserRouter([
         element: <AboutPage/>
       },
       {
-        path: "/experience",
-        element: <Experience/>
+        path: "/contactMe",
+        element: <ContactMe/>
       },
       {
         path: "/projact",
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/resume",
         element: <Resume/>
+      },
+      {
+        path: "/myStory",
+        element: <MyStory/>
       }
     ],
   },

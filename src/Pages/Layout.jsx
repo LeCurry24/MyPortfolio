@@ -22,6 +22,7 @@ const Layout = () => {
           </button>
         </div>
         <div>
+            <Link to={"/myStory"}><button className={styles.resumeBtn}>My Story</button></Link>
             <Link to={"/resume"}><button className={styles.resumeBtn}>My Resume</button></Link>
         </div>
       </div>
