@@ -2,38 +2,34 @@
 .boxCard {
   border-radius: 20px;
   background-color: rgba(58, 57, 57, 0.42);
-  width: 46%;
+  width: 55%;
   height: 70%;
   
-  
+  .aboutTitle{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
   
 
   .aboutMe {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
     height: 50vh;
 
-    p {
+    .aboutMeParagragh {
       color: white;
-      padding: 5%;
+      padding: 10%;
       margin: 0;
     }
   }
 }
 
 
-span{
-    background-color: rgb(80, 150, 255);
-    padding: 1%;
-    border-radius: 10%;
-    margin: .4%;
-}
+
 
 h2 {
   color: white;
-  position: absolute;
-  bottom: 85%;
 }
 
 

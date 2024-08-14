@@ -8,8 +8,8 @@ const MyStory = () => {
     <>
       <div className={styles.boxCard}>
         <div className={styles.aboutMe}>
-          <h2>My Story</h2>
           <div className={styles.p}>
+          <h2 className={styles.myStory}>My Story</h2>
             <p>
               <span>H</span>i, my name is Jaylen and I'm going to tell you my
               story so let's get right into it. So it all started in elementary

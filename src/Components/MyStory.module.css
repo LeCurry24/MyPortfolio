@@ -1,6 +1,5 @@
 .boxCard {
     border-radius: 20px;
-    background-color: rgba(58, 57, 57, 0.42);
     width: 46%;
     height: 70%;
     
@@ -11,7 +10,7 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-      height: 170vh;
+      height: 150vh;
   
       p {
         color: white;
@@ -27,12 +26,13 @@
       padding: 1%;
       border-radius: 10%;
       margin: .4%;
+      font-size: 20px;
+      font-weight: bold;
   }
   
-  h2 {
+  .myStory {
     color: white;
-    position: absolute;
-    bottom: 85%;
+    font-size: 40px;
   }
   
   
