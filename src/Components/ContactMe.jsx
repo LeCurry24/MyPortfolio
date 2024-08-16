@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styles from "./ContactMe.module.css";
+import { Toaster, toast} from "react-hot-toast";
 
 const ContactMe = () => {
   const form = useRef();
@@ -14,9 +15,11 @@ const ContactMe = () => {
       })
       .then(
         () => {
+          toast.success("Successfully toasted!");
           console.log("SUCCESS!");
         },
         (error) => {
+          toast.error("This didn't work.")
           console.log("FAILED...", error.text);
         }
       );
@@ -25,7 +28,7 @@ const ContactMe = () => {
   return (
     <form ref={form} onSubmit={sendEmail} className={styles.form}>
       <div className={styles.contactCard}>
-        <h3>Contact Me</h3>
+        <h3 className={styles.text}>Contact Me</h3>
         <label className={styles.label}>Name</label>
         <input type="text" name="user_name" className={styles.input} />
         <label className={styles.label}>Email</label>
@@ -33,9 +36,10 @@ const ContactMe = () => {
         <label className={styles.label}>Message</label>
         <textarea name="message" className={styles.input} />
         <div>
-        <button type="submit" value="Send" className={styles.button}>
-          send
-        </button>
+          <Toaster position="top-center" reverseOrder={false} />
+          <button type="submit" value="Send" className={styles.button}>
+            send
+          </button>
         </div>
       </div>
     </form>

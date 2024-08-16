@@ -1,18 +1,48 @@
-
-
-
-
-.form {
-  background-color: rgba(58, 57, 57, 0.42);
-  border-radius: 10%;
-  width: 40%;
-  height: 350px;
+/* From Uiverse.io by akshat-patel28 */ 
+.contactCard {
+  position: relative;
+  width: 350px;
+  box-sizing: border-box;
+  background-color: #212121;
+  border: 5px solid #222;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-
-  
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          rgba(0, 0, 0, 0.23) 0px 6px 6px,
+          inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all ease-in-out 0.3s;
+  overflow: hidden;
 }
+
+.contactCard:hover {
+  box-shadow: rgba(193, 44, 223, 0.19) 0px 10px 20px,
+          rgba(193, 44, 223, 0.23) 0px 6px 6px,
+          inset rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          inset rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: 5px solid #b671d6;
+}
+
+
+@keyframes textanimate {
+  0% {
+    right: 20px;
+  }
+
+  100% {
+    right: 10px;
+  }
+}
+
+
+.text{
+  font-size: 30px;
+}
+
 
 /* inputs */
 .input {
