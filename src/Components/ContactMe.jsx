@@ -15,11 +15,11 @@ const ContactMe = () => {
       })
       .then(
         () => {
-          toast.success("Successfully toasted!");
+          toast.success("thanks for your message!");
           console.log("SUCCESS!");
         },
         (error) => {
-          toast.error("This didn't work.")
+          toast.error("FAILED to send message!")
           console.log("FAILED...", error.text);
         }
       );
