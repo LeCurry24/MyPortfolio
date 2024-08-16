@@ -1,4 +1,5 @@
 import styles from "./Exper.module.css";
+import LaFilmSchool from "./LaFilmSchool";
 
 
 
@@ -28,6 +29,7 @@ const Experience = () => {
               Python, HTML, CSS, JavaScript, React.js, PostgreSQL, FastApi.{" "}
             </p>
             <hr />
+            {/* <LaFilmSchool/> */}
           </div>
         </div>
       </div>

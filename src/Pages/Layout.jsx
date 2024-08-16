@@ -3,6 +3,7 @@ import styles from "./Layout.module.css";
 import ExternalButton from "./ExternalButton";
 import Linkedin from "./Linkedin";
 import HomeBtn from "./HomeBtn";
+import ContactBtn from "./contactBtn";
 
 const Layout = () => {
   return (
@@ -22,8 +23,15 @@ const Layout = () => {
           </button>
         </div>
         <div>
-            <Link to={"/myStory"}><button className={styles.resumeBtn}>My Story</button></Link>
-            <Link to={"/resume"}><button className={styles.resumeBtn}>My Resume</button></Link>
+          <Link to={"/projact"}>
+            <button className={styles.resumeBtn}>Projects</button>
+          </Link>
+          <Link to={"/myStory"}>
+            <button className={styles.resumeBtn}>My Story</button>
+          </Link>
+          <Link to={"/resume"}>
+            <button className={styles.resumeBtn}>My Resume</button>
+          </Link>
         </div>
       </div>
       <div className={styles.content}>
