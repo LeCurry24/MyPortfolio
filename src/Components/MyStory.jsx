@@ -11,7 +11,7 @@ const MyStory = () => {
           <div className={styles.p}>
           <h2 className={styles.myStory}>My Story</h2>
             <p>
-              <span>H</span>i, my name is Jaylen and I'm going to tell you my
+              <span className={styles.span}>H</span>i, my name is Jaylen and I'm going to tell you my
               story so let's get right into it. So it all started in elementary
               school. I went through school in special classes. Everyone I tell
               that to would always be surprised and say they would have never
@@ -37,7 +37,7 @@ const MyStory = () => {
             <h4>The Move To Greenville</h4>
             <p>
               {" "}
-              <span>N</span>ow that I have graduated and trying to figure out
+              <span className={styles.span}>N</span>ow that I have graduated and trying to figure out
               what is next for me I attended college but instantly College was
               not for me. So I dropped out of college and I moved to Greenville
               South Carolina with my dad to work. I also tried to start my

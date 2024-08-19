@@ -5,7 +5,7 @@ const SoftSkills = () => {
   return (
     <div className={styles.bgblue}>
       <div className={styles.card}>
-        <h5>Programming Skills </h5>
+        <h5>Soft Skills </h5>
         <ul className={styles.skills}>
           <li>Self-starter</li>
           <li>People-centric</li>

@@ -13,7 +13,7 @@ const AboutPage = () => {
           <h2 className={styles.aboutTitle}>About Me.</h2>
           <div>
             <p className={styles.aboutMeParagragh}>
-              <span>H</span>ey! I'm Jaylen Curry, a dedicated Full-stack
+              <span className={styles.span}>H</span>ey! I'm Jaylen Curry, a dedicated Full-stack
               Software Engineer from Greenville, SC. My tech journey began with
               a challenging 12-week immersive boot camp at Carolina Code School,
               where I gained practical experience in HTML, CSS, JavaScript,
