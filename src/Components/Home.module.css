@@ -1,11 +1,9 @@
 .homePage {
-  display: flex;
-  flex-direction: column;
   margin-top: 3%;
-  
+  line-height: 1.1;
   
   .h1{
-    font-size: 60px;
+    font-size: 70px;
     color: white;
     margin: 0;
   }
@@ -16,12 +14,12 @@
   }
 
 
-  .aboutPhoto {
-    border: solid  white;
+  /* .aboutPhoto {
     height: 85%;
-    border-radius: 100%;
-  }
+  } */
 }
+
+
 
 .imA{
   font-size: 40px;
