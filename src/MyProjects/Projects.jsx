@@ -1,5 +1,6 @@
 import ProjectsCard from "./ChooChooChat";
 import RoseGala from "./RoseGala";
+import RPG from "./Rpg";
 import styles from "./Projacts.module.css"
 
 const Profect = () => {
@@ -10,6 +11,9 @@ const Profect = () => {
       </div>
       <div className={styles.galaDiv}>
         <RoseGala />
+      </div>
+      <div className={styles.RpgDiv}>
+        <RPG/>
       </div>
     </div>
   );

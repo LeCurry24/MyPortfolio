@@ -1,109 +1,119 @@
-/* From Uiverse.io by Yaya12085 */ 
+/* From Uiverse.io by Yaya12085 */
 .card {
-    /* max-width: 200%; */
-    /* width: 160%; */
-    width: 26%;
-    height: 541px;
-    margin: 2%;
-    border-radius: 0.5rem;
-    background-color: #4d96bb;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid transparent;
-    
-  }
-
-  
-  .h3{
-    color: black;
-  }
-  
-  .card a {
-    text-decoration: none
-  }
-  
-  .content {
-    padding: 1.1rem;
-    text-indent: 2%;
-  }
-  
-  .image {
-    object-fit: cover;
-    width: 100%;
-    height: 150px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-image: url(/public/FirstProject.jpg);
-    background-size: cover;
-    /* background-color: rgb(239, 205, 255); */
-  }
-  
-  .title {
-    color: #111827;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-weight: 600;
-  }
-  
-
-  /* tags */
-  
-  /* end of tags */
-  
-  .action {
-    display: inline-flex;
-    margin-top: 1rem;
-    color: #ffffff;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 500;
-    align-items: center;
-    gap: 0.25rem;
-    background-color: #2563EB;
-    padding: 4px 8px;
-    border-radius: 4px;
-  }
-  
-  .action span {
-    transition: .3s ease;
-  }
-  
-  .action:hover span {
-    transform: translateX(4px);
-  }
-
-  /* projacts page edits */
-  .projectPage{
-    display: flex;
-    justify-content: center;
-  }
-
-/* choo choo chat edits */
-.chooChooChatP{
-    width: 100%;
-  }
- 
-  .chooDiv{
-    display: contents;
-  }
-  
-
-/* rose gala edits */
-.image2{
-  object-fit: cover;
-    width: 100%;
-    height: 150px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-image: url(/public/projact2img.jpg);
-    background-size: cover;
+  /* max-width: 200%; */
+  /* width: 160%; */
+  width: 26%;
+  height: 541px;
+  margin: 2%;
+  border-radius: 0.5rem;
+  background-color: #4d96bb;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
 }
 
-.galaDiv{
+.h3 {
+  color: black;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.content {
+  padding: 1.1rem;
+  text-indent: 2%;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url(/public/FirstProject.jpg);
+  background-size: cover;
+  /* background-color: rgb(239, 205, 255); */
+}
+
+.title {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+/* tags */
+
+/* end of tags */
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563eb;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: 0.3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
+
+/* projacts page edits */
+.projectPage {
+  display: flex;
+  justify-content: center;
+}
+
+/* choo choo chat edits */
+.chooChooChatP {
+  width: 100%;
+}
+
+.chooDiv {
   display: contents;
 }
 
+/* rose gala edits */
+.image2 {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url(/public/projact2img.jpg);
+  background-size: cover;
+}
 
-  .roseGalaP{
-    width: 100%;
-  }
-  
+.galaDiv {
+  display: contents;
+}
+
+.roseGalaP {
+  width: 100%;
+}
+
+/* RPG edits */
+
+.image3{
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url(/public/Rpg.jpg);
+  background-size: cover;
+}
+
+.RpgDiv{
+  display: contents;
+}
