@@ -1,8 +1,14 @@
+.myStoryContaner{
+  display: flex;
+  justify-content: center;
+}
+
 .boxCard {
     border-radius: 20px;
-    width: 46%;
+    width: 80%;
     height: 70%;
     line-height: 1.5;
+    font-weight: 600;
     
     
   
@@ -44,3 +50,5 @@
       margin: 0;
       margin-top: 3%;
   }
+
+  

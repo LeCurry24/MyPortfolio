@@ -10,6 +10,7 @@ const Experience = () => {
       <div className={styles.expCard}>
         <div className={styles.expInfo}>
           <div>
+            <hr />
           <h2 className={styles.experience}>Experience.</h2>
             <div className={styles.schoolDate}>
             <h3>Carolina Code School</h3>

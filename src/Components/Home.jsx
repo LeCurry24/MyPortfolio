@@ -14,7 +14,8 @@ const Home = () => {
       <Link to={"/about"}>
         <button className={styles.button}>Learn more about me</button>
       </Link>
-      
+      <div className={styles.photo1}></div>
+      <div className={styles.photo2}></div>
       
     </div>
   );

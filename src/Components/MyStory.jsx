@@ -6,6 +6,7 @@ import styles from "./MyStory.module.css"
 const MyStory = () => {
   return (
     <>
+    <div className={styles.myStoryContaner}>
       <div className={styles.boxCard}>
         <div className={styles.aboutMe}>
           <div className={styles.p}>
@@ -86,6 +87,7 @@ const MyStory = () => {
           </div>
         </div>
       </div>
+    </div>  
     </>
   );
 };

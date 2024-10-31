@@ -1,5 +1,6 @@
 .homePage {
   margin-top: 3%;
+  margin-left: 5%;
   line-height: 1.1;
   
   .h1{
@@ -12,11 +13,29 @@
     font-size: 20px;
     color: white;
   }
+}
 
+.photo1{
+  position: absolute;
+  transform: rotate(350deg);
+  bottom: 15%;
+  left: 13%;
+  width: 30rem;
+  height: 20rem;
+  background-image: url("/public/HomePhoto.jpg");
+  background-size: cover;
+  border-radius: 5%;
+}
 
-  /* .aboutPhoto {
-    height: 85%;
-  } */
+.photo2{
+  position: absolute;
+  left: 70%;
+  bottom: 35%;
+  width: 22rem;
+  height: 30rem;
+  background-image: url("/public/Homephoto2.jpg");
+  background-size: cover;
+  border-radius: 5%;
 }
 
 
