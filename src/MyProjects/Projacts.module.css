@@ -100,17 +100,18 @@
   position: fixed;
   left: -1rem;
   bottom: 0;
-  width: 88rem;
+  width: 115rem;
   height: 57.3rem;
-  background-color: #18181b79;
+  background-color: #18181be5;
   z-index: 2;
 }
 
 .popOver{
   position: fixed;
-  left: 25rem;
+  left: 34rem;
   top: 10rem;
   background-color: rgb(152, 177, 201);
+  max-width: 40%;
   width: 40%;
   height: 60%;
   border-radius: 10px;
@@ -126,6 +127,24 @@
   
 }
 
+.galaImage{
+  width: 100%;
+  height: 50%;
+  background-image: url("/public/projact2img.jpg");
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.imageRPG{
+  width: 100%;
+  height: 50%;
+  background-image: url("/public/Rpg.jpg");
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .chooChooContent{
   width: 90%;
   height: 45%;
@@ -136,6 +155,7 @@
 
 
 .closebtn{
+  cursor: pointer;
   position: absolute;
   left: 94%;
   bottom: 95%;
@@ -144,4 +164,9 @@
   background-color: #050505;
   border-color: #ceddfd;
   border-radius: 10px;
+}
+
+.chooChooP{
+  text-wrap: balance;
+  text-indent: 3%;
 }

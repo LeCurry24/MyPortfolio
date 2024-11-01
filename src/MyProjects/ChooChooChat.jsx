@@ -32,7 +32,7 @@ const projectCard = () => {
                 Live Project
               </button>
               <button className={styles.closebtn} onClick={() => setShow(!show)}>X</button>
-              <p>
+              <p className={styles.chooChooP}>
                 My app improves communication between CSX Railroad roadmasters
                 and contractors. The roadmaster can add roads to a list, and
                 contractors will see "preset," "close," and "open" buttons for
