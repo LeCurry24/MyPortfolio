@@ -15,6 +15,7 @@ const Profect = () => {
       <div className={styles.RpgDiv}>
         <RPG/>
       </div>
+      
     </div>
   );
 };
