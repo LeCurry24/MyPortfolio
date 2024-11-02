@@ -1,6 +1,9 @@
+import styles from "./Resume.module.css"
+
 const Resume = () => {
-    return(
-        <iframe
+  return (
+    <div className={styles.resumeStyle}>
+      <iframe
         src="./JaylenResume.pdf#zoom=100"
         width="80%"
         height="1150px"
@@ -9,7 +12,8 @@ const Resume = () => {
       >
         Your browser does not support iframes. Contact me for copy of resume.
       </iframe>
-    )
-}
+    </div>
+  );
+};
 
-export default Resume
+export default Resume;
