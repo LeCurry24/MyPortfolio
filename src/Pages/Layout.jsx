@@ -4,7 +4,6 @@ import ExternalButton from "./ExternalButton";
 import Linkedin from "./Linkedin";
 import HomeBtn from "./HomeBtn";
 
-
 const Layout = () => {
   return (
     <>
@@ -15,14 +14,14 @@ const Layout = () => {
               <HomeBtn />
             </button>
           </Link>
-          <button className={styles.button}>
-            <ExternalButton />
-          </button>
-          <button className={styles.button}>
-            <Linkedin />
-          </button>
         </div>
         <div className={styles.rightSideBtn}>
+          <button className={styles.resumeBtn}>
+            <ExternalButton />
+          </button>
+          <button className={styles.resumeBtn}>
+            <Linkedin />
+          </button>
           <Link to={"/projact"}>
             <button className={styles.resumeBtn}>Projects</button>
           </Link>
