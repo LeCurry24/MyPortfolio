@@ -1,39 +1,45 @@
+import { useEffect } from "react";
 import styles from "./AboutPage.module.css";
-import { Link } from "react-router-dom";
 import Experience from "./Experience";
 import ProgrammingSkills from "./ProgrammingSkills";
 import SoftSkills from "./SoftSkills";
 import ContactMe from "./ContactMe";
 import AboutMeSum from "./AboutMeSum";
-import ChooChooChat from "../MyProjects/ChooChooChat"
-import RoseGala from "../MyProjects/RoseGala"
-import RPG from "../MyProjects/Rpg"
+import ChooChooChat from "../MyProjects/ChooChooChat";
+import RoseGala from "../MyProjects/RoseGala";
+import RPG from "../MyProjects/Rpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const AboutPage = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
-      <div>
-        <AboutMeSum/>
+      <div data-aos="fade-down-right">
+        <AboutMeSum />
       </div>
       <div className={styles.allSkills}>
-        <div className={styles.ProgrammingSkills}>
-        <ProgrammingSkills/>
+        <div data-aos="fade-down-left" className={styles.ProgrammingSkills}>
+          <ProgrammingSkills />
         </div>
-        <div className={styles.SoftSkills}>
-        <SoftSkills/>
+        <div data-aos="fade-down-left" className={styles.SoftSkills}>
+          <SoftSkills />
         </div>
       </div>
-      
-      <div>
+
+      <div data-aos="fade-down-right">
         <Experience />
       </div>
-      <div className={styles.topthreeProjects}>
-        <ChooChooChat/>
-        <RoseGala/>
-        <RPG/>
+      <div data-aos="fade-down-left" className={styles.topthreeProjects}>
+        <ChooChooChat />
+        <RoseGala />
+        <RPG />
       </div>
-        
-          <ContactMe/>
+      <div data-aos="fade-down-right">
+        <ContactMe />
+      </div>
     </>
   );
 };

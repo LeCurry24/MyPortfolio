@@ -1,17 +1,22 @@
+import { useEffect } from "react";
 import styles from "./MyStory.module.css"
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 
 const MyStory = () => {
+  useEffect(() =>{
+    Aos.init();
+  }, []);
   return (
     <>
     <div className={styles.myStoryContaner}>
       <div className={styles.boxCard}>
         <div className={styles.aboutMe}>
           <div className={styles.p}>
-          <h2 className={styles.myStory}>My Story</h2>
-            <p>
+          <h2 data-aos="zoom-in-right" className={styles.myStory}>My Story</h2>
+            <p data-aos="zoom-in-right">
               <span className={styles.span}>H</span>i, my name is Jaylen and I'm going to tell you my
               story so let's get right into it. So it all started in elementary
               school. I went through school in special classes. Everyone I tell
@@ -34,9 +39,9 @@ const MyStory = () => {
               accomplishment was graduating considering it didn't feel like an
               accomplishment because I wasn't challenged going through school.
             </p>
-            <hr />
-            <h4>The Move To Greenville</h4>
-            <p>
+            <hr data-aos="zoom-in-right" />
+            <h4 data-aos="zoom-in-right">The Move To Greenville</h4>
+            <p data-aos="zoom-in-right">
               {" "}
               <span className={styles.span}>N</span>ow that I have graduated and trying to figure out
               what is next for me I attended college but instantly College was
@@ -78,8 +83,8 @@ const MyStory = () => {
               development languages in only 3 months I can finally be proud of
               myself in hold my head high.
             </p>
-            <hr />
-            <p>
+            <hr data-aos="zoom-in-right"/>
+            <p data-aos="zoom-in-right">
               And that is my story on why becoming Carolina Code School cohort
               18 has made me the happiest I've ever been other than having my
               very own family.
