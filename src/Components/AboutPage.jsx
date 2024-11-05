@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 
 const AboutPage = () => {
   useEffect(() => {
-    Aos.init();
+    Aos.init({once: true});
   }, []);
   return (
     <>
