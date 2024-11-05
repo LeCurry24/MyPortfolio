@@ -13,13 +13,13 @@ const Profect = () => {
   }, [])
   return (
     <div className={styles.projectPage}>
-      <div data-aos="zoom-in-up" className={styles.chooDiv}>
+      <div  className={styles.chooDiv}>
         <ProjectsCard />
       </div>
-      <div data-aos="zoom-in-up" className={styles.galaDiv}>
+      <div  className={styles.galaDiv}>
         <RoseGala />
       </div>
-      <div data-aos="zoom-in-up" className={styles.RpgDiv}>
+      <div  className={styles.RpgDiv}>
         <RPG/>
       </div>
       

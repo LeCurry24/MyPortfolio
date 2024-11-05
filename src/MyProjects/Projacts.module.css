@@ -1,5 +1,6 @@
 /* From Uiverse.io by LeCurry24 */ 
 .card {
+  z-index: 1;
   --bg-card: hsl(240, 4%, 16%);
   --primary: #64a0c8;
   --primary-800: #64a0c8;
@@ -98,12 +99,12 @@
 
 .cover{
   position: fixed;
-  left: -1rem;
+  left: -1%;
   bottom: 0;
   width: 115rem;
   height: 57.3rem;
   background-color: #18181be5;
-  z-index: 2;
+  z-index: 4;
 }
 
   
