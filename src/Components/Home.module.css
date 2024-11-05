@@ -15,7 +15,7 @@
   }
 }
 
-.photo1{
+/* .photo1{
   position: absolute;
   transform: rotate(350deg);
   bottom: 15%;
@@ -36,7 +36,7 @@
   background-image: url("/public/Homephoto2.jpg");
   background-size: cover;
   border-radius: 5%;
-}
+} */
 
 
 
