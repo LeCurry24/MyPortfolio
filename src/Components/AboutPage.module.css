@@ -5,7 +5,7 @@
 
 .boxCard {
   border-radius: 20px;
-  width: 80%;
+  width: 100%;
   margin-top: 5%;
   line-height: 1.5;
   font-weight: 500;
@@ -85,8 +85,9 @@ h4 {
 
 .allSkills {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  
 }
 
 .ProgrammingSkills {
@@ -94,12 +95,14 @@ h4 {
 }
 
 .SoftSkills {
+  margin-top: 4%;
   margin-bottom: 10%;
 }
 
 
 .topthreeProjects{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 2%;
   margin-top: 5%;

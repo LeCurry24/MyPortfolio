@@ -4,12 +4,13 @@
   line-height: 1.1;
   
   .h1{
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     margin: 0;
   }
 
   p{
+    text-wrap: balance;
     font-size: 20px;
     color: white;
   }
@@ -25,18 +26,18 @@
   background-image: url("/public/HomePhoto.jpg");
   background-size: cover;
   border-radius: 5%;
-}
+} */
 
 .photo2{
   position: absolute;
-  left: 70%;
-  bottom: 35%;
+  margin-top: 2%;
+  left: 5%;
   width: 22rem;
   height: 30rem;
   background-image: url("/public/Homephoto2.jpg");
   background-size: cover;
   border-radius: 5%;
-} */
+}
 
 
 
