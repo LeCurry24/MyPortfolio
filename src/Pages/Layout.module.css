@@ -118,6 +118,19 @@
     
 }
 
+@media (width < 600px){
+  .rightSideBtn{
+    display: none;
+  }
+}
+
+@media (width > 599px) {
+  .dropDown{
+    display: none;
+  }
+  
+}
+
 .resumeBtn svg {
   color: rgb(6, 6, 6);
   width: 30px;

@@ -3,6 +3,7 @@ import styles from "./Layout.module.css";
 import ExternalButton from "./ExternalButton";
 import Linkedin from "./Linkedin";
 import HomeBtn from "./HomeBtn";
+import DropDown from "./DropDown";
 
 const Layout = () => {
   return (
@@ -14,6 +15,9 @@ const Layout = () => {
               <HomeBtn />
             </button>
           </Link>
+        </div>
+        <div className={styles.dropDown}>
+          <DropDown/>
         </div>
         <div className={styles.rightSideBtn}>
           <button className={styles.resumeBtn}>

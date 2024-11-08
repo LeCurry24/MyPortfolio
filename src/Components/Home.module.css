@@ -4,6 +4,7 @@
   line-height: 1.1;
   
   .h1{
+    text-wrap: balance;
     font-size: 50px;
     color: white;
     margin: 0;
@@ -52,14 +53,7 @@
 
 
 
-@media screen and (max-width: 450px) {
-    .aboutPhoto{
-        height: 30%;
-        width: 90%;
-    }
 
-    
-}
 
 
 
