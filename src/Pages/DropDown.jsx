@@ -20,25 +20,29 @@ const DropDown = () => {
           <>
             <ul>
               <li>
-                <button><ExternalButton/></button>
+                <button className={styles.dropBtn}>
+                  <ExternalButton />
+                </button>
               </li>
               <li>
-                <button><Linkedin/></button>
+                <button className={styles.dropBtn}>
+                  <Linkedin />
+                </button>
               </li>
               <li>
-              <Link to={"/projact"}>
-            <button className={styles.resumeBtn}>Projects</button>
-          </Link>
+                <Link to={"/projact"}>
+                  <button className={styles.dropBtn}>Projects</button>
+                </Link>
               </li>
               <li>
-              <Link to={"/myStory"}>
-            <button className={styles.resumeBtn}>My Story</button>
-          </Link>
+                <Link to={"/myStory"}>
+                  <button className={styles.dropBtn}>My Story</button>
+                </Link>
               </li>
               <li>
-              <Link to={"/resume"}>
-            <button className={styles.resumeBtn}>My Resume</button>
-          </Link>
+                <Link to={"/resume"}>
+                  <button className={styles.dropBtn}>My Resume</button>
+                </Link>
               </li>
             </ul>
           </>

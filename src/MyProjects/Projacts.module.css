@@ -120,13 +120,19 @@
   
   .popOver{
     position: fixed;
-    left: 34rem;
-    top: 10rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgb(152, 177, 201);
     max-width: 550px;
     width: fit-content;
     height: 70%;
     border-radius: 10px;
+    @media (width < 501px) {
+      max-width: 300px;
+      width: 100%;
+      height: 55%;
+    }
   }
  
 
@@ -139,7 +145,9 @@
   background-size: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  
+  @media (width < 501px) {
+    display: none;
+  }
 }
 
 .galaImage{
@@ -149,6 +157,9 @@
   background-size: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  @media (width < 501px) {
+    display: none;
+  }
 }
 
 .imageRPG{
@@ -158,6 +169,9 @@
   background-size: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  @media (width < 501px) {
+    display: none;
+  }
 }
 
 .chooChooContent{
@@ -182,6 +196,10 @@
   background-color: #050505;
   border-color: #ceddfd;
   border-radius: 10px;
+  @media (width < 501px) {
+    width: 10%;
+    height: 6%;
+  }
 }
 
 .chooChooP{

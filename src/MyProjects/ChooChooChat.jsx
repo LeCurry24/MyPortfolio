@@ -25,11 +25,9 @@ const projectCard = () => {
               </div>
               <button>
                 <a
-                  href="https://choo-choo-chat.netlify.app/"
+                  href="https://choo-choo-chat.netlify.app"
                   target="_blank"
-                  rel="noopener noreferrer"
-                ></a>
-                Live Project
+                >Live Project</a>
               </button>
               <button
                 className={styles.closebtn}

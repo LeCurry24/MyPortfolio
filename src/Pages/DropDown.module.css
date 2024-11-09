@@ -1,12 +1,18 @@
+.centerDrop{
+  width: -webkit-fill-available;
+}
+
 .nav{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  cursor: pointer;
   
 
   ul{
       flex-direction: column;
       width: 100%;
+      margin-right: 7%;
       margin-bottom: 0.25rem;
 
 
@@ -46,3 +52,21 @@
   }
 
 }
+
+.dropBtn{
+  background: none;
+  color: white;
+  border: none;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.dropBtn:hover{
+  background-color: rgb(82, 108, 194);
+}
+
+.dropBtn:focus{
+  background-color: rgb(82, 108, 194);
+}
+
+

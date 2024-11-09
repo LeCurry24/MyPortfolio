@@ -85,7 +85,7 @@ const MyStory = () => {
             </p>
             <hr data-aos="zoom-in-right"/>
             <p data-aos="zoom-in-right">
-              And that is my story on why becoming Carolina Code School cohort
+              That is my story on why becoming Carolina Code School cohort
               18 has made me the happiest I've ever been other than having my
               very own family.
             </p>
