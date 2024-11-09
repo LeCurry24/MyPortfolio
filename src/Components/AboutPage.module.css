@@ -5,10 +5,14 @@
 
 .boxCard {
   border-radius: 20px;
-  width: 80%;
+  width: 70%;
   margin-top: 5%;
   line-height: 1.5;
   font-weight: 500;
+
+  @media (width < 599px) {
+    width: 90%;
+  }
 
   .aboutTitle {
     display: flex;
@@ -107,4 +111,34 @@ h4 {
   gap: 2%;
   margin-top: 5%;
   margin-bottom: 5%;
+  @media (width >= 982px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.hideShow{
+  @media (width < 981px) {
+    display: none; 
+  }
+
+  @media (width >= 982px) {
+    display: flex;
+    gap: 3.5%;
+  }
+}
+
+
+.span{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2rem;
+  background-color: rgb(80, 150, 255);
+  padding: .2%;
+  border-radius: 10%;
+  margin: .4%;
+  font-size: 20px;
+  font-weight: bold;
 }

@@ -33,9 +33,13 @@ const AboutPage = () => {
         <Experience />
       </div>
       <div data-aos="fade-down-left" className={styles.topthreeProjects}>
+        <div>
         <ChooChooChat />
+        </div>
+        <div className={styles.hideShow}>
         <RoseGala />
         <RPG />
+        </div>
       </div>
       <div data-aos="fade-down-right">
         <ContactMe />

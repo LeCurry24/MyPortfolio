@@ -1,5 +1,5 @@
 import styles from "./Exper.module.css";
-import LaFilmSchool from "./LaFilmSchool";
+import { Link } from "react-router-dom";
 
 
 
@@ -30,6 +30,9 @@ const Experience = () => {
               Python, HTML, CSS, JavaScript, React.js, PostgreSQL, FastApi.{" "}
             </p>
             <hr />
+            <Link to={"/projact"}>
+            <button className={styles.allProjects}>All Projects</button>
+            </Link>
             {/* <LaFilmSchool/> */}
           </div>
         </div>

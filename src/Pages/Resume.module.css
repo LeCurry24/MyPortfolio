@@ -3,3 +3,9 @@
     justify-content: center;
     margin: 2%;
 }
+
+iframe{
+    max-width: 200%;
+    width:100%;
+    height:1150px;
+}
